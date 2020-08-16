@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bdf331540d55f914a0850a945f8da706",
+    "revision": "9482255586ed85470fc53ad5da71f79b",
     "url": "/new-hangman-react/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/new-hangman-react/static/css/2.6d4ecc00.chunk.css"
   },
   {
-    "revision": "300a17b2062fd45ecdd8",
+    "revision": "f57f39550dee32378cc8",
     "url": "/new-hangman-react/static/css/main.16026de6.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/new-hangman-react/static/js/2.980af01b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "300a17b2062fd45ecdd8",
-    "url": "/new-hangman-react/static/js/main.454ac9fd.chunk.js"
+    "revision": "f57f39550dee32378cc8",
+    "url": "/new-hangman-react/static/js/main.cbdc79df.chunk.js"
   },
   {
     "revision": "59eab3ac39a491dde61e",
