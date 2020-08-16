@@ -3,6 +3,7 @@ import { connect } from "react-redux";
 import { Redirect } from "react-router-dom";
 import Loading from "./Loading";
 import * as actions from "../store/actions";
+import "./Style.css";
 
 import step0 from "../media/images/step0.svg";
 import step1 from "../media/images/step1.svg";

@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import * as actions from "../store/actions";
+import "./Style.css";
 
 class EnterPhrase extends Component {
-
   constructor(props) {
     super(props);
     this.state = {
@@ -12,7 +12,6 @@ class EnterPhrase extends Component {
 
     this.checkWordHandler = this.checkWordHandler.bind(this);
     this.onSubmitHandler = this.onSubmitHandler.bind(this);
-
   }
 
   componentDidMount() {
@@ -28,7 +27,6 @@ class EnterPhrase extends Component {
         isPhraseValid: false,
       });
     }
-
   }
 
   checkWordHandler(str) {
@@ -40,7 +38,6 @@ class EnterPhrase extends Component {
     } else {
       this.setState({ isPhraseValid: false });
     }
-
   }
 
   onSubmitHandler(e) {
@@ -50,7 +47,6 @@ class EnterPhrase extends Component {
       document.forms["game"]["word"].value !== ""
       ? this.props.history.push("/game")
       : false;
-      
   }
 
   render() {
